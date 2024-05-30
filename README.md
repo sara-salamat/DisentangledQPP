@@ -13,14 +13,15 @@ Our approach hypothesizes that separating content semantics from query difficult
 
 ## Installation
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 To train a disentanglement model, rum the following command:
-'''
+```
 python TrainT.py --base-model /path/to/model/ 
-'''
+```
 To evaluate your trained model:
-'''
+```
 python Evaluate.py --model-path /path/to/trained/model --data /path/to/data
+```
