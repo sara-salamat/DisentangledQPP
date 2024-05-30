@@ -5,13 +5,7 @@ CoDiR-QPP is a novel approach designed to enhance search query performance predi
 
 Our approach hypothesizes that separating content semantics from query difficulty can significantly improve the accuracy of predicting query performance. By distinguishing between well-performing and poorly performing query variants, CoDiR-QPP enables more precise estimation of a query’s potential success.
 
-## Features
-- **Neural Disentanglement**: Isolates semantic content from difficulty aspects of queries.
-- **Contrastive Learning**: Enhances the model's ability to differentiate between varying performances of query formulations.
-- **Improved Metrics**: Achieves higher correlation with standard performance metrics like Kendall τ, Spearman ρ, and scaled Mean Absolute Ranking Error (sMARE).
-- **Extensive Validation**: Tested on four standard benchmark datasets, demonstrating superior performance over state-of-the-art baselines.
-
-## Installation
+## Usage
 
 ```
 pip install -r requirements.txt
