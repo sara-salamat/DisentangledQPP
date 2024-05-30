@@ -15,4 +15,7 @@ Our approach hypothesizes that separating content semantics from query difficult
 
 '''bash
 pip install -r requirements.txt
-'''
+
+To train a disentanglement model, rum the following command:
+'''python
+python TrainT.py --base-model /path/to/model/ 
